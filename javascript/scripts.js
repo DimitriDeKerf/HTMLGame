@@ -84,6 +84,7 @@ $(document).ready(function() {
                 }
             });
 
+            //Schip verplaatsen
             if (secondPlanet != null && secondPlanet.ship == false) {
                 firstPlanet.ship = !firstPlanet.ship;
                 secondPlanet.ship = !secondPlanet.ship;
